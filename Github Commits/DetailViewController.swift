@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  DetailViewController.swift
 //  Github Commits
 //
 //  Created by Артур Азаров on 22.08.2018.
@@ -8,6 +8,7 @@
 
 import UIKit
 
-class ViewController: UITableViewController {
+final class DetailViewController: UIViewController {
+    
+    @IBOutlet var detailLabel: UILabel!
 }
-
