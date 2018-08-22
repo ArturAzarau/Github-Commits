@@ -14,6 +14,7 @@
 		72378E9E212DD5AB00575A9C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72378E9C212DD5AB00575A9C /* LaunchScreen.storyboard */; };
 		72378EA6212DD5C500575A9C /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72378EA5212DD5C500575A9C /* SwiftyJSON.swift */; };
 		72378EA8212DD72400575A9C /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72378EA7212DD72400575A9C /* DetailViewController.swift */; };
+		72378EAB212DD81E00575A9C /* Project38.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 72378EA9212DD81E00575A9C /* Project38.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		72378E9F212DD5AB00575A9C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		72378EA5212DD5C500575A9C /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
 		72378EA7212DD72400575A9C /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		72378EAA212DD81E00575A9C /* Project38.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Project38.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 				72378E95212DD5A800575A9C /* ViewController.swift */,
 				72378EA5212DD5C500575A9C /* SwiftyJSON.swift */,
 				72378E97212DD5A800575A9C /* Main.storyboard */,
+				72378EA9212DD81E00575A9C /* Project38.xcdatamodeld */,
 				72378EA7212DD72400575A9C /* DetailViewController.swift */,
 				72378E9A212DD5AB00575A9C /* Assets.xcassets */,
 				72378E9C212DD5AB00575A9C /* LaunchScreen.storyboard */,
@@ -142,6 +145,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				72378EA6212DD5C500575A9C /* SwiftyJSON.swift in Sources */,
+				72378EAB212DD81E00575A9C /* Project38.xcdatamodeld in Sources */,
 				72378E96212DD5A800575A9C /* ViewController.swift in Sources */,
 				72378E94212DD5A800575A9C /* AppDelegate.swift in Sources */,
 				72378EA8212DD72400575A9C /* DetailViewController.swift in Sources */,
@@ -340,6 +344,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		72378EA9212DD81E00575A9C /* Project38.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				72378EAA212DD81E00575A9C /* Project38.xcdatamodel */,
+			);
+			currentVersion = 72378EAA212DD81E00575A9C /* Project38.xcdatamodel */;
+			path = Project38.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 72378E88212DD5A800575A9C /* Project object */;
 }
